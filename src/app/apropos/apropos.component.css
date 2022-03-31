@@ -1,0 +1,38 @@
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:50px;
+    text-align: center;
+
+}
+
+/*   boxcontent   */
+
+.example-small-box, .example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px;
+ 
+  }
+  
+  .example-small-box {
+    height: 300px;
+    width: 300px;
+    font-size: 15px;
+  }
+
+  
+  .example-large-box {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+  }
+
+pre{
+    text-align:center;
+    margin-right: 110px ;
+}

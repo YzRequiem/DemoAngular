@@ -1,0 +1,43 @@
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:50px;
+    text-align: center;
+
+}
+
+/*   boxcontent   */
+
+.example-small-box, .example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+ 
+  }
+  
+  .example-small-box {
+    height: 300px;
+    width: 500px;
+    font-size:20px ; 
+    text-align: center;
+    padding:100px;
+    line-height:50px;
+    border-radius: 10%;
+    font-weight: bold;
+    color: black;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgb(17, 199, 236) 41%, rgb(14, 14, 154) 77%, rgb(1, 27, 98) 86%); 
+  }
+  
+  .example-large-box {
+    background-image: url("cv.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: 880px;
+
+  }

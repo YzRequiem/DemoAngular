@@ -9,8 +9,10 @@ import { AproposComponent } from './apropos/apropos.component';
 import { NosservicesComponent } from './nosservices/nosservices.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
-import { HomeComponent } from './home/home.component'; 
+import {MatProgressBarModule} from '@angular/material/progress-bar'; 
+import {MatTabsModule} from '@angular/material/tabs'; 
 
 @NgModule({
   declarations: [
@@ -20,13 +22,17 @@ import { HomeComponent } from './home/home.component';
     AproposComponent,
     NosservicesComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatProgressBarModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
