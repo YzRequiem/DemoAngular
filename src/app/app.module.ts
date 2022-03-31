@@ -7,6 +7,10 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AproposComponent } from './apropos/apropos.component';
 import { NosservicesComponent } from './nosservices/nosservices.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotFoundComponent } from './not-found/not-found.component';
+import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './home/home.component'; 
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { NosservicesComponent } from './nosservices/nosservices.component';
     ContactComponent,
     NavbarComponent,
     AproposComponent,
-    NosservicesComponent
+    NosservicesComponent,
+    NotFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
