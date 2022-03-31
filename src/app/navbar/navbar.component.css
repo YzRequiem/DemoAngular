@@ -1,0 +1,8 @@
+
+ul {
+    display: flex;
+    list-style: none;
+    background-color: red;
+    justify-content: space-evenly
+}
+
