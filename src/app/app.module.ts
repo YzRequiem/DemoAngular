@@ -13,6 +13,9 @@ import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar'; 
 import {MatTabsModule} from '@angular/material/tabs'; 
+import {ButtonModule} from 'primeng/button';
+
+
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import {MatTabsModule} from '@angular/material/tabs';
     NotFoundComponent,
     HomeComponent,
     
+
+ 
+    
    
   ],
   imports: [
@@ -32,9 +38,20 @@ import {MatTabsModule} from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatButtonModule,
     MatProgressBarModule,
-    MatTabsModule
+    MatTabsModule,
+    ButtonModule,
+    
+   
+    
+  
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule{ }
+
+
+
+
+
